@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// ⚠️ Non mostrare i tuoi dati reali nel video
+// 
 $host = ''; //localhost
 $db   = ''; //il nome del tuo db che vedi da phpmyadmin
 $user = ''; //la sua username
@@ -19,3 +19,4 @@ try {
 } catch (Exception $e) {
     die('Connessione fallita: '.$e->getMessage());
 }
+
